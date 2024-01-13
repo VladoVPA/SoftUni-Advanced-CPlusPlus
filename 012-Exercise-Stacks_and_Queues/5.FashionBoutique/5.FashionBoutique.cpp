@@ -22,5 +22,20 @@ int main()
 	int rackCapacity;
 	cin >> rackCapacity;
 
+	int racksNum = 1, clothsOnRack=0;
 
+	while (!box.empty()) {
+		int cloth = box.top();
+		box.pop();
+
+		if (clothsOnRack + cloth <= rackCapacity) 
+			clothsOnRack = clothsOnRack + cloth;
+		else {
+			racksNum++;
+			clothsOnRack = cloth;
+		}
+	}
+
+	cout << racksNum << endl;
+	return 0;
 }
