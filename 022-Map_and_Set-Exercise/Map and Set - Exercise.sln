@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5. Sort Numbers", "5. Sort 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6. Squares", "6. Squares\6. Squares.vcxproj", "{AA261832-DBAE-4547-AD78-D6A1D4D8343C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7. Miners", "7. Miners\7. Miners.vcxproj", "{5430A166-44A4-4B61-9314-675149754388}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{AA261832-DBAE-4547-AD78-D6A1D4D8343C}.Release|x64.Build.0 = Release|x64
 		{AA261832-DBAE-4547-AD78-D6A1D4D8343C}.Release|x86.ActiveCfg = Release|Win32
 		{AA261832-DBAE-4547-AD78-D6A1D4D8343C}.Release|x86.Build.0 = Release|Win32
+		{5430A166-44A4-4B61-9314-675149754388}.Debug|x64.ActiveCfg = Debug|x64
+		{5430A166-44A4-4B61-9314-675149754388}.Debug|x64.Build.0 = Debug|x64
+		{5430A166-44A4-4B61-9314-675149754388}.Debug|x86.ActiveCfg = Debug|Win32
+		{5430A166-44A4-4B61-9314-675149754388}.Debug|x86.Build.0 = Debug|Win32
+		{5430A166-44A4-4B61-9314-675149754388}.Release|x64.ActiveCfg = Release|x64
+		{5430A166-44A4-4B61-9314-675149754388}.Release|x64.Build.0 = Release|x64
+		{5430A166-44A4-4B61-9314-675149754388}.Release|x86.ActiveCfg = Release|Win32
+		{5430A166-44A4-4B61-9314-675149754388}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
