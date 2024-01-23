@@ -18,10 +18,14 @@ int main()
 		numList[num]++;
 	}
 
-	auto itr = numList.begin();
+	for (const pair<double,int> & forPrint : numList)
+	{
+		cout << forPrint.first << " -> " << forPrint.second << endl;
+	}
+	/*auto itr = numList.begin();
 	for (; itr != numList.end(); itr++) {
 		cout << itr->first << " -> " << itr->second << endl;
-	}
+	}*/
 
 	return 0;
 }
